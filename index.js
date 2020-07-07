@@ -1,8 +1,8 @@
 const fetch = require("node-fetch");
 require("dotenv").config();
 
-const ACCESS_TOKEN = process.env.ACCESS_TOKEN;
-const MEMEDIAURL = `https://graph.instagram.com/me/media?fields=id,caption,media_type,media_url,thumbnail_url,timestamp&access_token=${ACCESS_TOKEN}`;
+const INSTA_ACCESS_TOKEN = process.env.INSTA_ACCESS_TOKEN;
+const MEMEDIAURL = `https://graph.instagram.com/me/media?fields=id,caption,media_type,media_url,thumbnail_url,timestamp&access_token=${INSTA_ACCESS_TOKEN}`;
 
 const getInstaFeed = async () => {
   // grab the feed from insta
