@@ -11,7 +11,9 @@ Instructions on how to set up an Instagram Feed for your project.
 - Click ADD A NEW APP
 - Choose "for everything else"
 - Give it a name
-- Pick INSTAGRAM -> Set up
+- Pick INSTAGRAM BASIC DISPLAY -> Set up
+- CREATE NEW APP
+- CREATE APP
 - In the sidebar, find "BASIC DISPLAY"
 - Scroll down to find "USER TOKEN GENERATOR"
 - If not exists, click "CREATE NEW PLATFORM" to get this dialogue
